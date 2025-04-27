@@ -29,7 +29,7 @@ pygame.mixer.music.play(-1)
 hit_sound = pygame.mixer.Sound(resource_path("music/sword_sound.mp3"))
 enemy_hit_sound = pygame.mixer.Sound(resource_path("music/sword_sound.mp3"))
 
-icon = pygame.image.load(resource_path("logo.ico"))
+icon = pygame.image.load(resource_path("logo.png"))
 pygame.display.set_icon(icon)
 
 clock = pygame.time.Clock()
